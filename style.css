@@ -1,0 +1,167 @@
+:root {
+  --primary-color: #4682b4;
+  --information-color: #696969;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+nav {
+  display: flex;
+  padding: 30px;
+  height: 10vh;
+  height: 70px;
+  background-color: var(--primary-color);
+  color: white;
+  align-items: center;
+}
+nav a {
+  color: white;
+  padding-left: 45px;
+  text-decoration: none;
+  font-size: 0.95em;
+}
+
+nav h1 {
+  font-size: 20px;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+}
+.nav-links {
+  display: inline-block;
+  margin-top: 5px;
+  margin-left: 30px;
+}
+
+.information {
+  color: var(--primary-color);
+  padding-top: 30px;
+  padding-left: 25px;
+}
+
+.information.details {
+  color: var(--information-color);
+  font-weight: normal;
+  line-height: 1.3em;
+}
+
+.information.details span {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.membership {
+  display: inline-block;
+  margin-left: 25px;
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: solid 2px;
+  border-radius: 10px;
+  color: #ff8c00;
+  font-weight: normal;
+}
+
+.contact {
+  color: var(--primary-color);
+  padding-left: 25px;
+  padding-top: 50px;
+}
+
+.contact.info {
+  display: inline-flex;
+  margin-top: 15px;
+  margin-left: 25px;
+  margin-bottom: 10px;
+  padding: 15px 35px;
+  border-radius: 10px;
+  color: white;
+  box-shadow: 5px 4px 5px 0 #00000020;
+  border: solid 0.2px #414a4c;
+}
+
+.contact.info.inst {
+  background-color: #9932cc;
+}
+
+.contact.info.facebook {
+  background-color: #4169e1;
+}
+
+.contact.info.youtube {
+  background-color: #ff0000;
+}
+
+.testimonial ul {
+  display: flex;
+  margin: 3em 1em;
+  list-style: none;
+}
+
+.customer {
+  color: var(--primary-color);
+  padding-left: 25px;
+  padding-top: 45px;
+  margin-bottom: 20px;
+}
+
+.testimonial li {
+  background-color: #f2f3f4;
+  text-align: center;
+  padding: 2em 1em;
+  width: 80%;
+  margin: 2em 1em;
+  border-radius: 1em;
+  color: var(--information-color);
+  font-size: 0.8em;
+}
+
+.testimonial img {
+  width: 5em;
+  height: 5em;
+  border: 5px solid #f2f3f4;
+  border-radius: 50%;
+  margin-top: -4.5em;
+}
+
+.gym {
+  background-color: var(--primary-color);
+  color: white;
+  display: block;
+}
+
+.gym h4 {
+  padding: 25px 5px 10px 10px;
+  font-weight: normal;
+}
+
+.gym h5 {
+  padding-left: 10px;
+  padding-top: 2px;
+  padding-bottom: 3px;
+}
+.gym ul {
+  padding-bottom: 0.5em;
+}
+.gym.list.item {
+  padding-left: 28px;
+  font-size: 12px;
+  margin-bottom: 0.1em;
+}
+
+footer {
+  width: 100%;
+  height: 32vh;
+}
+
+footer .gym.info {
+  padding-left: 12px;
+  padding-top: 1px;
+  padding-bottom: 0.2em;
+}

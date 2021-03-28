@@ -1,0 +1,92 @@
+:root {
+  --primary-color: #4682b4;
+  --information-color: #696969;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+nav {
+  display: flex;
+  padding: 30px;
+  height: 10vh;
+  height: 70px;
+  background-color: var(--primary-color);
+  color: white;
+  align-items: center;
+}
+nav a {
+  color: white;
+  padding-left: 45px;
+  text-decoration: none;
+  font-size: 0.95em;
+}
+
+nav h1 {
+  font-size: 20px;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+}
+.nav-links {
+  margin-top: 5px;
+  margin-left: 30px;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+}
+
+.gym-info h3,
+.gym-info h1 {
+  text-align: center;
+  padding-left: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-weight: none;
+  color: var(--information-color);
+}
+
+.gym-info h3,
+.gym-info h1 {
+  color: var(--primary-color);
+  padding-top: 30px;
+  padding-left: 25px;
+}
+
+.gym-info p {
+  color: var(--information-color);
+  padding-top: 20px;
+  padding-left: 25px;
+  font-weight: bold;
+  line-height: 1.3em;
+}
+
+.location {
+  color: var(--primary-color);
+  padding-top: 30px;
+  padding-left: 25px;
+}
+
+.map ul {
+  display: flex;
+  padding-left: 80px;
+  margin: 3em 1em;
+  list-style: none;
+}
+
+.map cite {
+  padding-bottom: 10px;
+}
+
+.map ul iframe {
+  height: 100%;
+  width: 90%;
+}
